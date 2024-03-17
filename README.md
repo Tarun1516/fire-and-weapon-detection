@@ -15,6 +15,24 @@ The increasing occurrences of fire accidents and security threats involving weap
 # Solution: 
 Our Fire and Weapon Detection System leverages YOLO V3 ML model, trained on a vast dataset of over 6000 images and videos, for real-time object detection. Integrated with CCTV feeds, OpenCV, and numpy, it swiftly identifies fires and weapons. Upon detection, Twilio API and SMTP API instantly alert relevant authorities via SMS and email, ensuring prompt response. This scalable system offers comprehensive monitoring in public spaces, from airports to schools, preventing accidents and threats. By providing proactive surveillance, it enhances public safety, potentially saving lives and safeguarding property, establishing a robust defense against potential risks.
 
+
+ # Technical Implementation:
+
+1.Machine Learning Model: YOLOv3 utilized for real-time object detection, trained on a dataset of 6000+ images/videos of fires and weapons.
+2.Image Processing: OpenCV employed for capturing video frames, feature extraction, and applying object detection algorithms.
+3.Communication APIs: Twilio API integrated for SMS notifications; SMTP API used for email notifications with app-specific password authentication.
+4.Script Configuration: chosen.py script configured with parameters like phone numbers, email addresses, and paths to pre-trained weights.
+5.Execution: Script activates webcam for real-time detection; upon detection, sends SMS alerts via Twilio and emails with detected object images via SMTP.
+6.Feedback Mechanism: Voice feedback and console messages provide updates on detection and notification statuses
+
+# Technical Stack:
+
+*Python
+*OpenCV
+*YOLOv3
+*Twilio API
+*SMTP API
+
 # How to run
 STEP 1 
 Install the required library functions
