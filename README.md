@@ -1,5 +1,9 @@
 # fire-and-weapon-detection
 This is the working of weapon and fire detection and alerting systems using ML. We have developed a model that detects the fire and weapon using the live feed from the webcam, after detecting the weapon or fire we have integrated the code with Twilio API and SMTP API they both are used to send SMS and EMAIL notifications respectively. The API will automatically send the code to the respected authority in charge nearer to that incident. For example if it is an fire accident then the SMS and email will be send to the fire and safety department.  We have trained a model called YOLO V3 that be trained with more than 6000+ images and videos of fire and weapons for more accuracy. We have used open CV and numpy library to make it more efficient. We are able to attain very high accuracy only because of this YOLO V3 model which makes the detection of fire or weapon within few seconds. This is a real-time problem statement that can be done in all public places with just CCTV camera functioning. This project can avoid many accidents and incidents that can be avoided and also many lives can be saved from threats
+
+# Problem Statement:
+The increasing occurrences of fire accidents and security threats involving weapons in public places pose significant risks to the safety and security of individuals. Traditional surveillance methods are often insufficient to detect such incidents in real-time, leading to delays in response and potential harm to individuals and property. There is a pressing need for an efficient and reliable system that can accurately detect fires and weapons in real-time using live camera feeds and promptly alert the relevant authorities to mitigate the risks and ensure public safety.
+
 # how to run
 STEP 1 
 Install the required library functions
