@@ -1,13 +1,21 @@
 # fire-and-weapon-detection
 This is the working of weapon and fire detection and alerting systems using ML. We have developed a model that detects the fire and weapon using the live feed from the webcam, after detecting the weapon or fire we have integrated the code with Twilio API and SMTP API they both are used to send SMS and EMAIL notifications respectively. The API will automatically send the code to the respected authority in charge nearer to that incident. For example if it is an fire accident then the SMS and email will be send to the fire and safety department.  We have trained a model called YOLO V3 that be trained with more than 6000+ images and videos of fire and weapons for more accuracy. We have used open CV and numpy library to make it more efficient. We are able to attain very high accuracy only because of this YOLO V3 model which makes the detection of fire or weapon within few seconds. This is a real-time problem statement that can be done in all public places with just CCTV camera functioning. This project can avoid many accidents and incidents that can be avoided and also many lives can be saved from threats
 
+# Team number : VH115
+
+Tarun - iamtarun2003@gmail.com
+Thirupathi venkatesh - stvenkat9025@gmail.com
+Narmadha.E  - narmadhaeswaran16@gmail.com
+Vasanthasawthi - swamyswathi0932@gmail.com
+
 # Problem Statement:
+
 The increasing occurrences of fire accidents and security threats involving weapons in public places pose significant risks to the safety and security of individuals. Traditional surveillance methods are often insufficient to detect such incidents in real-time, leading to delays in response and potential harm to individuals and property. There is a pressing need for an efficient and reliable system that can accurately detect fires and weapons in real-time using live camera feeds and promptly alert the relevant authorities to mitigate the risks and ensure public safety.
 
 # Solution: 
 Our Fire and Weapon Detection System leverages YOLO V3 ML model, trained on a vast dataset of over 6000 images and videos, for real-time object detection. Integrated with CCTV feeds, OpenCV, and numpy, it swiftly identifies fires and weapons. Upon detection, Twilio API and SMTP API instantly alert relevant authorities via SMS and email, ensuring prompt response. This scalable system offers comprehensive monitoring in public spaces, from airports to schools, preventing accidents and threats. By providing proactive surveillance, it enhances public safety, potentially saving lives and safeguarding property, establishing a robust defense against potential risks.
 
-# how to run
+# How to run
 STEP 1 
 Install the required library functions
 
