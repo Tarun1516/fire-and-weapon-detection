@@ -18,12 +18,18 @@ Our Fire and Weapon Detection System leverages YOLO V3 ML model, trained on a va
 
  # Technical Implementation:
 
-1.Machine Learning Model: YOLOv3 utilized for real-time object detection, trained on a dataset of 6000+ images/videos of fires and weapons.
-2.Image Processing: OpenCV employed for capturing video frames, feature extraction, and applying object detection algorithms.
-3.Communication APIs: Twilio API integrated for SMS notifications; SMTP API used for email notifications with app-specific password authentication.
-4.Script Configuration: chosen.py script configured with parameters like phone numbers, email addresses, and paths to pre-trained weights.
-5.Execution: Script activates webcam for real-time detection; upon detection, sends SMS alerts via Twilio and emails with detected object images via SMTP.
-6.Feedback Mechanism: Voice feedback and console messages provide updates on detection and notification statuses
+1.Machine Learning Model: 
+            YOLOv3 utilized for real-time object detection, trained on a dataset of 6000+ images/videos of fires and weapons.
+2.Image Processing: 
+            OpenCV employed for capturing video frames, feature extraction, and applying object detection algorithms.
+3.Communication APIs:
+           Twilio API integrated for SMS notifications; SMTP API used for email notifications with app-specific password authentication.
+4.Script Configuration:
+          chosen.py script configured with parameters like phone numbers, email addresses, and paths to pre-trained weights.
+5.Execution:
+          Script activates webcam for real-time detection; upon detection, sends SMS alerts via Twilio and emails with detected object images via SMTP.
+6.Feedback Mechanism: 
+         Voice feedback and console messages provide updates on detection and notification statuses
 
 # Technical Stack:
 
