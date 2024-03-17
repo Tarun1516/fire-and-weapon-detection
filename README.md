@@ -83,3 +83,11 @@ STEP 13
 You can see the SMS on the receiver's phone and the email contains the images of the fire that is been detected.
 
 These are the steps to run the code.
+
+# Future perpespective 
+In the foreseeable future, the Fire and Weapon Detection System holds tremendous potential for revolutionizing public safety and security across diverse environments. As it evolves, the system can seamlessly integrate with smart city infrastructures, extending its surveillance capabilities to streets, parks, and transportation hubs. By leveraging real-time monitoring and analytics, authorities can proactively manage risks and allocate resources effectively. Collaboration among security agencies and integration with IoT devices can further enhance its reach and effectiveness. However, ensuring privacy protection and ethical use will be crucial, necessitating stringent regulations and public education efforts. As the system gains global adoption, standardization efforts and continuous innovation will drive its evolution, ultimately fostering safer communities and mitigating potential threats to lives and property.
+
+# Declartion 
+We confirm that the project showcased here was either developed entirely during the hackathon or underwent significant updates within the hackathon timeframe. We understand that if any plagiarism from online sources is detected, our project will be disqualified, and our participation in the hackathon will be revoked.
+
+
